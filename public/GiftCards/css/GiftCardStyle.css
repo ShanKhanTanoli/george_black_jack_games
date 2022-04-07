@@ -1,0 +1,80 @@
+.GiftCard {
+    width: 400px;
+    height: 450px;
+    margin: 0px auto;
+    color: #fff;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent !important;
+    background-clip: border-box;
+    border: transparent !important;
+    border-radius: 0.42rem;
+}
+
+
+.card .front {
+    position: relative;
+}
+
+.card_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 206px;
+}
+
+
+.card .card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 55555;
+    height: 206px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.card .back {
+    margin-top: 230px;
+}
+
+.card .back,
+.card .front {
+    position: relative;
+}
+
+.card .card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 55555;
+    height: 206px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.card .middle {
+    display: table-cell;
+    vertical-align: middle;
+    width: 375px;
+    height: 180px;
+}
+
+.bar-code{
+    margin-top: -140px;
+    margin-left:230px;
+    text-align: center;
+}
